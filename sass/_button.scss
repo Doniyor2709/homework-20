@@ -1,0 +1,106 @@
+.btn1{
+  color: #fff;
+  font-family:"Manrope";
+  border: none;
+  background:$button-color;
+  border-radius: 9px;
+  width: 205px;
+  height: 54px;
+}
+
+.btn-blue{
+  font-family: "Manrope";
+  color:$maincolor;
+  margin-top: 29px;
+  width: 241px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 250px;
+  background:$headercolor;
+}
+
+
+.btn-center{
+  width: 114px;
+  height: 54px;
+  flex-shrink: 0;
+
+}
+
+//**//*/*/*button animation Start/*//*/*/*
+.glow-on-hover {
+  border: none;
+  outline: none;
+  color: #fff;
+  background:$headercolor;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 250px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 250px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:$headercolor;
+  left: 0;
+  top: 0;
+  border-radius: 250px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+//*/*/*button animate END/*/*/*/*
+
+.dark-light img{
+  background:$headercolor;
+}
+
+.btn-or{
+  width: 195px;
+height: 54px;
+flex-shrink: 0;
+border-radius: 9px;
+background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+color: var(--unnamed, #FFF);
+font-family: "Manrope";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+}

@@ -1,0 +1,119 @@
+
+.glow-on-hover {
+  border: none;
+  outline: none;
+  color: #fff;
+  background:$headercolor;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 250px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 250px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #77B2D3;
+  left: 0;
+  top: 0;
+  border-radius: 250px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+//*/*/*/*end 1/**//*/
+
+
+/*/*//*start2/*////**/
+.dark header{
+  background-color:$headercolor;
+}
+.dark{
+  background-color: black;
+}
+.dark .main-h1{
+  color: #000;
+}
+.cen1 {
+  color: black !important;
+
+}
+
+.dark *{
+  color: #ffffff;
+}
+.sun, .moon{
+  font-size: 10rem;
+  width: fit-content;
+  height: fit-content;
+}
+.moon{
+  
+  position: absolute;
+  inset: 0;
+}
+.moon-logo{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(50deg);
+  transition: all 1s ease-out;
+}
+.sun-logo{
+  opacity: 1;
+  transform: translateY(0) rotateZ(0deg);
+  transition: all 1s ease-out;
+}
+.animate-sun{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(100deg);
+}
+.animate-moon{
+  opacity: 1;
+  transform: translateY(0%) rotateZ(0deg);
+}
+.animate-moon path{
+fill: white;
+}
+.animate-sun path{
+fill: rgb(255, 251, 0);
+}
+/*/*//*/*///*
+.sun-logo{
+  left: 10px;
+  position: relative;
+  top: -2198px;
+}

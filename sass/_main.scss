@@ -1,0 +1,405 @@
+.about-row{
+  position: relative;
+  padding-top: 193px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+column-gap: 70px;
+
+}
+
+
+.prow1{
+  color:#333;
+  font-family: "Manrope";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 65px; /* 144.444% */
+}
+
+.prow2{
+  color:#333;
+font-family: "Manrope";
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 65px;
+text-transform: uppercase;
+}
+
+.prow3{
+  padding-top: 14px;
+  color:#333;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+
+.about-main{
+  height: 254px;
+  position: relative;
+margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+column-gap: 70px;
+border-radius: 20px;
+background:#FFF;
+/* Тень */
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.cen{
+  font-family: "Manrope";
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 48px; /* 120% */
+background:linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.cen1{
+  color:#333;
+font-family: "Manrope";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.main-card{
+  padding-top: 65px;
+  padding-left: 40px;
+  margin-left: 40px;
+  margin: 30px;
+}
+
+.main-card2, .main-card3,.main-card4{
+  padding-top:95px;
+}
+
+.main-h1{
+  color:#333;
+font-family: "Manrope";
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 126.316% */
+text-transform: uppercase;
+  left: 72px;
+  position:relative ;
+  top: -234px;
+}
+
+/*/*//*/*//*/*/
+.about__row1 {
+  padding-top: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.about {
+  &__row {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &__card {
+
+
+    background-color: yellow;
+    &__body {
+      img {
+        width: 100%;
+      }
+    }
+    &__footer {
+      width: 220px;
+      height: 378px;
+      flex-shrink: 0;border-radius: 15px;
+      background-color: #77b1d300;
+      /* Тень */
+      box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+      padding: 0px 20px;
+      z-index: 1;
+      h3 {
+        color:#ffffff;
+        text-align: center;
+        font-family: "Manrope";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px; /* 144.444% */
+        text-transform: uppercase;
+
+      }
+
+      button {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 25px;
+      }
+      // button:hover {
+      //   background-color: red;
+      // }
+    }
+  }
+}
+
+
+.about__card{
+  width: 220px;
+height: 74px;
+flex-shrink: 0;
+background-color: #77B2D3;
+border-radius: 15px 15px 0px 0px;
+background: #77B2D3;
+/* Тень */
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+
+li p{
+  color: #333;
+  font-family: "Manrope";
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+  .footer-list__item {
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer-list{
+  padding-top: 25px;
+}
+
+.footer-list1{
+  padding-top: 50px;
+}
+.about__card__footer:hover{
+  box-shadow: 5px 4px 18px 5px rgba(0, 0, 0, 0.08);
+}
+
+.hr{position: relative;
+  top: 83px;
+  text-align: left;
+  width: 180px;
+height: 2px;
+background: #E2E2E2;
+}
+
+.hr1{
+  position: relative;
+  top: 150px;
+}
+.hr3{
+  position: relative;
+    top: 130px;
+    text-align: left;
+    width: 180px;
+  height: 2px;
+  background: #E2E2E2;
+}
+.main-subtitle{
+  position: relative;
+  top: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rub{
+  background: var(--3, linear-gradient(122deg, #F32C6D 29.57%, #CB1D95 85.47%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: "Manrope";
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 23px;
+}
+
+.ot{
+  
+  color: var(--unnamed, #333);
+font-family: "Manrope";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.main-subtitle2{
+  position: relative;
+  top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-subtitle1{
+  position: relative;
+  top: 160px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.arow1{
+  position: relative;
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 70px;
+  column-gap: 70px;  
+
+}
+
+.rowp{
+  color: var(--unnamed, #333);
+  font-family: Manrope;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  text-transform: uppercase;
+}
+
+.rowb{
+  padding-top: 14px;
+  color: var(--unnamed, #333);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.rowbtn{
+  
+  padding-top: 338px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.imput{
+  
+  width: 270px;
+height: 59px;
+flex-shrink: 0;
+border-radius: 7px;
+background: var(--unnamed, #FFF);
+/* Тень */
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.imput p{
+  padding-top: 15px;
+  margin: 20px;
+  color: var(--unnamed, #333);
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+}
+
+.imput2{
+  position: relative;
+  left: 298px;
+  top: -78px;
+  width: 270px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: var(--unnamed, #FFF);
+  /* Тень */
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  
+}
+.imput2 p{
+  padding-top: 15px;
+  margin: 20px;
+  color: var(--unnamed, #333);
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+}
+
+
+.imput3{
+  position: relative;
+  top: -62px;
+  width: 570px;
+height: 141px;
+flex-shrink: 0;
+border-radius: 7px;
+background: var(--unnamed, #FFF);
+
+/* Тень */
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+p{
+  color: var(--unnamed, #333);
+  font-family: "Manrope";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 162.5% */
+  margin: 20px;
+  padding-top: 15px;
+}
+}
+
+.imput-buttom{
+  position:relative;
+  top: -42px;
+  width: 32px;
+height: 32px;
+flex-shrink: 0;
+border-radius: 2px;
+background: var(--unnamed, #FFF);
+/* Тень */
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+}
+
+.imput-buttomp{
+  position: relative;
+  top:  -70px;
+  left: 54px;
+  color: var(--unnamed, #333);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 162.5% */
+}
+
+.typ{
+  position: relative;
+  top: -40px;
+}
+
+@media (max-width:800px){
+  .about-row button{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-row{
+    grid-template-columns: repeat(1, 1fr);
+    width:50%;
+  }
+}
